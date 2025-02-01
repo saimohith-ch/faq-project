@@ -14,5 +14,5 @@ This is a simple Django-based FAQ system that supports multiple languages for qu
 - Redis (for caching)
 
   ### Steps to Run Locally
-  1. **Clone the repository:**
+  **Clone the repository:**
       
