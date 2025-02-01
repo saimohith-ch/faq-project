@@ -1,32 +1,32 @@
 # faq-project
 This is a simple Django-based FAQ system that supports multiple languages for questions and answers. It uses Django REST framework to expose an API to fetch FAQ data. Additionally, the FAQ model automatically translates the questions and answers into multiple languages (Hindi, Bengali) if not already provided.
 
-#Features
+# Features
 - **Multi-language Support:** Fetch FAQs in English, Hindi, and Bengali.
 - **API Endpoint:** `GET /api/faqs/` to retrieve the list of FAQs.
 - **Database Caching:** Frequently fetched data is cached to improve performance.
 
-#Prerequisites
+# Prerequisites
 - Python 3.x
 - Django 5.1+
 - Django REST framework
 - Google Translate API or the `googletrans` library (you may need to install this manually)
 - Redis (for caching)
-#Steps to Run Locally
-1.**Clone the repository:**
+# Steps to Run Locally
+1.Clone the repository:
   ```bash
      git clone https://github.com/saimohith-ch/faq-project.git
   ```
-2. Create a virtual environment:
+2.Create a virtual environment:
 ```bash
    python -m venv env
   ```
 3. Activate the virtual environment:
-   **On Windows:
+   - **On Windows:
       ```bash
          .\env\Scripts\activate
       ```
-   **On macOS/Linux:
+   - **On macOS/Linux:
       ```bash
          source env/bin/activate
       ```
@@ -46,11 +46,11 @@ This is a simple Django-based FAQ system that supports multiple languages for qu
 ```bash
    python manage.py runserver
 ```
-#8. Visit the API and Admin Panel:
+# 8. Visit the API and Admin Panel:
   - **API Endpoint: http://127.0.0.1:8000/api/faqs/
   - **Admin Panel: http://127.0.0.1:8000/admin/
-#API Endpoints
-#Fetch FAQs in Different Languages
+# API Endpoints
+# Fetch FAQs in Different Languages
   **GET /api/faqs/?lang=hi: Fetches all the FAQs in Hindi (using the lang query parameter; 
     defaults to English if not provided).
 Example Requests:
@@ -62,7 +62,7 @@ Example Requests:
   #Fetch FAQs in Bengali:
     curl http://127.0.0.1:8000/api/faqs/?lang=bn
 ```
-#Contribution Guidelines
+# Contribution Guidelines
 1.Fork the repository and clone it locally.
 2.Create a new branch with a descriptive name.
 3.Make your changes following PEP8 guidelines.
