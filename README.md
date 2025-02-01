@@ -16,5 +16,5 @@ This is a simple Django-based FAQ system that supports multiple languages for qu
   ### Steps to Run Locally
   
   1.**Clone the repository:**
+  ```bash
      git clone https://github.com/saimohith-ch/faq-project.git
-      
