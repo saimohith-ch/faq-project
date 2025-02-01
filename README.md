@@ -14,5 +14,7 @@ This is a simple Django-based FAQ system that supports multiple languages for qu
 - Redis (for caching)
 
   ### Steps to Run Locally
-  **Clone the repository:**
+  
+  1.**Clone the repository:**
+     git clone https://github.com/saimohith-ch/faq-project.git
       
