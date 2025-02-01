@@ -12,7 +12,7 @@ This is a simple Django-based FAQ system that supports multiple languages for qu
 - Django REST framework
 - Google Translate API or the `googletrans` library (you may need to install this manually)
 - Redis (for caching)
-# Steps to Run Locally
+## Steps to Run Locally
 1.Clone the repository:
   ```bash
      git clone https://github.com/saimohith-ch/faq-project.git
@@ -21,8 +21,8 @@ This is a simple Django-based FAQ system that supports multiple languages for qu
 ```bash
    python -m venv env
   ```
-3. Activate the virtual environment:
-    On Windows:
+3. ### Activate the virtual environment:
+    - **On Windows:
       ```bash
          .\env\Scripts\activate
       ```
